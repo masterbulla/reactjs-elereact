@@ -5,7 +5,7 @@ label {
 }
 
 div {
-    width: 400px;
+    width: auto;
     align-content: center;
 
     .flex-init-setup {
@@ -25,12 +25,42 @@ div {
         justify-content: center;
     }
 
-    // .container {
-    //     display: flex;
-    //     flex-direction: column;
-    // }
+    .input-warp {
+        margin-bottom: 10px;
+
+        label {
+            float: left;
+            text-align: right;
+            margin-right: 20px;
+        }
+        
+        select {
+            float: right;
+            width: 115px;
+        }
+        
+        input {
+            float: right;
+            width: 115px;
+        }
+    }
 }
 
 button {
-    size: 25%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: inline-block;
+    padding: 8px 24px;
+    color: white;
+    opacity: 0.8;
+    border-radius: 4px;
+    background-color: #52da4d;
+    cursor: pointer;
+    box-shadow: 0 5px #34a35e;
+
+    &:active {
+        position: relative;
+        top: 7px;
+        box-shadow: none;
+    }
 }

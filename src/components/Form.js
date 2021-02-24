@@ -129,14 +129,16 @@ class Form extends React.Component {
                     <input type="text" inputMode="numeric"/>
                 </div>
                 <div className='input-warp'>
+                    <label>Artifact Effect</label>
                     <input
+                        className='input-checkbox'
                         type='checkbox'
                         defaultChecked={false}
                         onChange={(event)=>{this.handleChecked(event)}} 
                     />
-                    <label>Artifact Effect</label>
-                    { artifactSelection }
                 </div>
+                
+                { artifactSelection }
 
                 <button
                     onClick={this.Calculation}>
