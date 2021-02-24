@@ -1,0 +1,30 @@
+[
+    {
+        "label": "Overloaded",
+        "value": "Overloaded"
+    },
+    {
+        "label": "Electro-Charged",
+        "value": "Electro-Charged"
+    },
+    {
+        "label": "Superconduct",
+        "value": "Superconduct"
+    },
+    {
+        "label": "Swirl",
+        "value": "Swirl"
+    },
+    {
+        "label": "Shattered",
+        "value": "Shattered"
+    },
+    {
+        "label": "Melt",
+        "value": "Melt"
+    },
+    {
+        "label": "Vaporize",
+        "value": "Vaporize"
+    }
+]
