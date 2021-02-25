@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/reactjs-elereact/static/css/main.46317cb8.chunk.css",
-    "main.js": "/reactjs-elereact/static/js/main.d1c4a4f1.chunk.js",
-    "main.js.map": "/reactjs-elereact/static/js/main.d1c4a4f1.chunk.js.map",
+    "main.css": "/reactjs-elereact/static/css/main.b5b2ae0a.chunk.css",
+    "main.js": "/reactjs-elereact/static/js/main.fa0ad9fe.chunk.js",
+    "main.js.map": "/reactjs-elereact/static/js/main.fa0ad9fe.chunk.js.map",
     "runtime-main.js": "/reactjs-elereact/static/js/runtime-main.383f13c6.js",
     "runtime-main.js.map": "/reactjs-elereact/static/js/runtime-main.383f13c6.js.map",
     "static/js/2.ec5f7231.chunk.js": "/reactjs-elereact/static/js/2.ec5f7231.chunk.js",
     "static/js/2.ec5f7231.chunk.js.map": "/reactjs-elereact/static/js/2.ec5f7231.chunk.js.map",
     "index.html": "/reactjs-elereact/index.html",
-    "static/css/main.46317cb8.chunk.css.map": "/reactjs-elereact/static/css/main.46317cb8.chunk.css.map",
+    "static/css/main.b5b2ae0a.chunk.css.map": "/reactjs-elereact/static/css/main.b5b2ae0a.chunk.css.map",
     "static/js/2.ec5f7231.chunk.js.LICENSE.txt": "/reactjs-elereact/static/js/2.ec5f7231.chunk.js.LICENSE.txt",
     "static/media/Genshin-Impact-Logo.1666fb51.png": "/reactjs-elereact/static/media/Genshin-Impact-Logo.1666fb51.png"
   },
   "entrypoints": [
     "static/js/runtime-main.383f13c6.js",
     "static/js/2.ec5f7231.chunk.js",
-    "static/css/main.46317cb8.chunk.css",
-    "static/js/main.d1c4a4f1.chunk.js"
+    "static/css/main.b5b2ae0a.chunk.css",
+    "static/js/main.fa0ad9fe.chunk.js"
   ]
 }
