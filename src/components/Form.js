@@ -148,14 +148,14 @@ class Form extends React.Component {
                     value={this.state.charlvl}
                     onChange={(event) => {this.setState({charlvl: event.target.value})}}>
                     <label>Character Level</label>
-                    <input type="text" inputMode="numeric"/>
+                    <input type="text" inputMode="numeric" defaultValue="0"/>
                 </div>
                 <div
                     className='input-warp'
                     value={this.state.emas}
                     onChange={(event) => {this.setState({emas: event.target.value})}}>
                     <label>Elemental Mastery</label>
-                    <input type="text" inputMode="numeric"/>
+                    <input type="text" inputMode="numeric" defaultValue="0"/>
                 </div>
                 <div className='input-warp'>
                     <label>Artifact Effect</label>
