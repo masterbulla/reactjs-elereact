@@ -51,7 +51,7 @@ class Form extends React.Component {
         this.setState({ result: roundNumber(result, 2) });
     }
 
-    handleChecked(event) {
+    handleChecked = (event) => {
         const check = event.target.checked;
         this.setState({isChecked: check});
     }
@@ -87,14 +87,18 @@ class Form extends React.Component {
         let artifactSelection;
         if (this.state.isChecked) {
             artifactSelection = (
-                <select
-                    value={this.state.effect}
-                    onChange={(event) => {this.setState({effect: event.target.value})}}
-                >
-                    {effects.map((option) => (
-                        <option value={option.value}>{option.label}</option>
-                    ))}
-                </select>
+                <div className='input-warp'>
+                    <label>Artifact Set</label>
+                    <select
+                        className='input-dropdown'
+                        value={this.state.effect}
+                        onChange={(event) => {this.setState({effect: event.target.value})}}
+                    >
+                        {effects.map((option) => (
+                            <option value={option.value}>{option.label}</option>
+                        ))}
+                    </select>
+                </div>
             );
         }
 
@@ -147,7 +151,7 @@ class Form extends React.Component {
 
                 <div className='result-wrapper'>
                     <span className='result'>
-                        { this.state.reaction } :
+                        { this.state.reaction }&nbsp;:&nbsp;
                         { this.state.result }
                     </span>
                 </div>
