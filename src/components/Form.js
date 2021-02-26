@@ -102,6 +102,31 @@ class Form extends React.Component {
             );
         }
 
+        let resultText;
+        if (isNaN(this.state.result)) {
+            resultText = (
+                <span className='result'>Reaction is not match with Artifact Effect</span>
+            );
+        } else if (this.state.reaction === 'Vaporize' || this.state.reaction === 'Melt') {
+            resultText = (
+                <span className='result'>
+                    { this.state.reaction }&nbsp;:&nbsp;
+                    { this.state.result }&nbsp;x
+                </span>
+            );
+        } else if (this.state.result == 0) {
+            resultText = (
+                <span className='result'></span>
+            );
+        } else {
+            resultText = (
+                <span className='result'>
+                    { this.state.reaction }&nbsp;:&nbsp;
+                    { this.state.result }
+                </span>
+            );
+        }
+
         return(
             <div className='container flex-init-setup flex-ppal-setup'>
                 <div className='input-warp'>
@@ -150,10 +175,7 @@ class Form extends React.Component {
                 </button>
 
                 <div className='result-wrapper'>
-                    <span className='result'>
-                        { this.state.reaction }&nbsp;:&nbsp;
-                        { this.state.result }
-                    </span>
+                    { resultText }
                 </div>
             </div>
         );
